@@ -1,0 +1,47 @@
+body {
+    background-color: #000;
+  }
+  
+  .container {
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    color: pink;
+    animation: rainbow 4s infinite;
+  }
+  
+  p {
+    font-size: 24px;
+    color: purple;
+  }
+  
+  img {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    animation: rotate 3s infinite;
+  }
+  
+  @keyframes rainbow {
+    0% { color: pink; }
+    16.7% { color: orange; }
+    33.3% { color: yellow; }
+    50% { color: blue; }
+    66.7% { color: green; }
+    83.3% { color: purple; }
+    100% { color: pink; }
+  }
+  
+  
+  @keyframes rotate {
+    0% {
+         transform: rotate(0deg); 
+        }
+    100% { 
+        transform: rotate(360deg); 
+    }
+  }
+  
