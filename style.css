@@ -24,6 +24,11 @@ body {
     border-radius: 50%;
     animation: rotate 3s infinite;
   }
+
+  h4{
+    font-style: italic;
+    color: burlywood;
+  }
   
   @keyframes rainbow {
     0% { color: pink; }
